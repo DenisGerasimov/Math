@@ -54,7 +54,7 @@ int main()
 
 	int n, m, N, mn = INT_MAX, mx = INT_MIN;
 	string arg;
-	in >> n >> m;
+	in >> n >> m >> arg;
 	// n - количество строк (Y), m - количество столбцов (X)
 
 	if (arg != "min" && arg != "max")
